@@ -5,6 +5,7 @@ git clone https://github.com/datastax/adelphi
 cd adelphi
 helm install adelphi helm/adelphi -n cass-operator
 ```
+Test Test
 
 > :warning: This assumes your KUBECONFIG is set to the right k8s cluster and that you have the Helm package manager installed.
 For complete setup instructions, check [Local Setup](#local-setup).
@@ -48,6 +49,8 @@ if you're using some other existing cluster you can skip to step 4.
     ```
     k3d cluster create adelphi --servers 3 --wait
     ```
+
+Test test test
 
 3. When that completes, set the KUBECONFIG environment variable to make sure you're working in the right context:
 
